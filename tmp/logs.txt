@@ -1,0 +1,4866 @@
+2020-09-28 16:34:13Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SETs NAMES UTF8' at line 1
+)
+
+2020-09-28 16:34:49Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SETs NAMES UTF8' at line 1
+)
+
+2020-09-28 16:34:49Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SETs NAMES UTF8' at line 1
+)
+
+2020-09-28 16:34:50Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SETs NAMES UTF8' at line 1
+)
+
+2020-09-28 16:34:51Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SETs NAMES UTF8' at line 1
+)
+
+2020-09-28 16:36:24 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SETs NAMES UTF8' at line 1
+)
+
+2020-09-28 16:36:24 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SETs NAMES UTF8' at line 1
+)
+
+2020-09-28 17:35:42 PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO)
+    [string:Exception:private] => 
+    [code:protected] => 1045
+    [file:protected] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+    [line:protected] => 7
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 7
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:dbname=awablog;host=localhost
+                            [1] => root1
+                            [2] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 42
+                    [function] => connect
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php
+                    [line] => 7
+                    [function] => formQuery
+                    [args] => Array
+                        (
+                            [0] => SELECT
+                            [1] => posts
+                            [2] => Array
+                                (
+                                    [id] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO) in E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php on line <i>7</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0091</td><td bgcolor='#eeeeec' align='right'>358280</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>3.9571</td><td bgcolor='#eeeeec' align='right'>411592</td><td bgcolor='#eeeeec'>formQuery( ???, ???, ??? )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>7</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>4.8131</td><td bgcolor='#eeeeec' align='right'>411696</td><td bgcolor='#eeeeec'>connect(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>42</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>8.4381</td><td bgcolor='#eeeeec' align='right'>412872</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+( ???, ???, ??? )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>7</td></tr>
+
+)
+
+2020-09-28 17:52:45 PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO)
+    [string:Exception:private] => 
+    [code:protected] => 1045
+    [file:protected] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+    [line:protected] => 7
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 7
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:dbname=awablog;host=localhost
+                            [1] => root1
+                            [2] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 48
+                    [function] => connect
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php
+                    [line] => 7
+                    [function] => formQuery
+                    [args] => Array
+                        (
+                            [0] => SELECT
+                            [1] => posts
+                            [2] => Array
+                                (
+                                    [id] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO) in E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php on line <i>7</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4020</td><td bgcolor='#eeeeec' align='right'>357824</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.5570</td><td bgcolor='#eeeeec' align='right'>411624</td><td bgcolor='#eeeeec'>formQuery(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>7</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.5570</td><td bgcolor='#eeeeec' align='right'>411624</td><td bgcolor='#eeeeec'>connect(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>48</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.5571</td><td bgcolor='#eeeeec' align='right'>412008</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>7</td></tr>
+
+)
+
+2020-09-28 17:52:46 PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO)
+    [string:Exception:private] => 
+    [code:protected] => 1045
+    [file:protected] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+    [line:protected] => 7
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 7
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:dbname=awablog;host=localhost
+                            [1] => root1
+                            [2] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 48
+                    [function] => connect
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php
+                    [line] => 7
+                    [function] => formQuery
+                    [args] => Array
+                        (
+                            [0] => SELECT
+                            [1] => posts
+                            [2] => Array
+                                (
+                                    [id] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO) in E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php on line <i>7</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4041</td><td bgcolor='#eeeeec' align='right'>359760</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.5467</td><td bgcolor='#eeeeec' align='right'>413600</td><td bgcolor='#eeeeec'>formQuery(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>7</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.5467</td><td bgcolor='#eeeeec' align='right'>413600</td><td bgcolor='#eeeeec'>connect(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>48</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.5467</td><td bgcolor='#eeeeec' align='right'>413984</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>7</td></tr>
+
+)
+
+2020-09-28 17:56:15 PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO)
+    [string:Exception:private] => 
+    [code:protected] => 1045
+    [file:protected] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+    [line:protected] => 7
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 7
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:dbname=awablog;host=localhost
+                            [1] => root1
+                            [2] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 48
+                    [function] => connect
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php
+                    [line] => 7
+                    [function] => formQuery
+                    [args] => Array
+                        (
+                            [0] => SELECT
+                            [1] => posts
+                            [2] => Array
+                                (
+                                    [id] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO) in E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php on line <i>7</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4011</td><td bgcolor='#eeeeec' align='right'>357824</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4765</td><td bgcolor='#eeeeec' align='right'>412296</td><td bgcolor='#eeeeec'>formQuery(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>7</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4765</td><td bgcolor='#eeeeec' align='right'>412296</td><td bgcolor='#eeeeec'>connect(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>48</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4766</td><td bgcolor='#eeeeec' align='right'>412680</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>7</td></tr>
+
+)
+
+2020-09-28 17:56:16 PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO)
+    [string:Exception:private] => 
+    [code:protected] => 1045
+    [file:protected] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+    [line:protected] => 7
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 7
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:dbname=awablog;host=localhost
+                            [1] => root1
+                            [2] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 48
+                    [function] => connect
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php
+                    [line] => 7
+                    [function] => formQuery
+                    [args] => Array
+                        (
+                            [0] => SELECT
+                            [1] => posts
+                            [2] => Array
+                                (
+                                    [id] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO) in E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php on line <i>7</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4012</td><td bgcolor='#eeeeec' align='right'>359760</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4815</td><td bgcolor='#eeeeec' align='right'>414272</td><td bgcolor='#eeeeec'>formQuery(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>7</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4815</td><td bgcolor='#eeeeec' align='right'>414272</td><td bgcolor='#eeeeec'>connect(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>48</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4815</td><td bgcolor='#eeeeec' align='right'>414656</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>7</td></tr>
+
+)
+
+2020-09-28 17:57:07 PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO)
+    [string:Exception:private] => 
+    [code:protected] => 1045
+    [file:protected] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+    [line:protected] => 7
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 7
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:dbname=awablog;host=localhost
+                            [1] => root1
+                            [2] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 48
+                    [function] => connect
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php
+                    [line] => 7
+                    [function] => formQuery
+                    [args] => Array
+                        (
+                            [0] => SELECT
+                            [1] => posts
+                            [2] => Array
+                                (
+                                    [id] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO) in E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php on line <i>7</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.0068</td><td bgcolor='#eeeeec' align='right'>358280</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>5.4906</td><td bgcolor='#eeeeec' align='right'>413408</td><td bgcolor='#eeeeec'>formQuery( ???, ???, ??? )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>7</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>7.1306</td><td bgcolor='#eeeeec' align='right'>413512</td><td bgcolor='#eeeeec'>connect(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>48</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>17.8027</td><td bgcolor='#eeeeec' align='right'>414688</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+( ???, ???, ??? )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>7</td></tr>
+
+)
+
+2020-09-28 17:59:02 PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO)
+    [string:Exception:private] => 
+    [code:protected] => 1045
+    [file:protected] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+    [line:protected] => 7
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 7
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:dbname=awablog;host=localhost
+                            [1] => root1
+                            [2] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 48
+                    [function] => connect
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php
+                    [line] => 8
+                    [function] => formQuery
+                    [args] => Array
+                        (
+                            [0] => SELECT
+                            [1] => posts
+                            [2] => Array
+                                (
+                                    [id] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO) in E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php on line <i>7</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4017</td><td bgcolor='#eeeeec' align='right'>358328</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4106</td><td bgcolor='#eeeeec' align='right'>411832</td><td bgcolor='#eeeeec'>formQuery(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>8</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4106</td><td bgcolor='#eeeeec' align='right'>411832</td><td bgcolor='#eeeeec'>connect(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>48</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4107</td><td bgcolor='#eeeeec' align='right'>412216</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>7</td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SERVER</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REMOTE_ADDR']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'127.0.0.1'</font> <i>(length=9)</i>
+</pre></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REQUEST_METHOD']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'GET'</font> <i>(length=3)</i>
+</pre></td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SESSION</i></th></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_REQUEST</i></th></tr>
+
+)
+
+2020-09-28 17:59:02 PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO)
+    [string:Exception:private] => 
+    [code:protected] => 1045
+    [file:protected] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+    [line:protected] => 7
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 7
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:dbname=awablog;host=localhost
+                            [1] => root1
+                            [2] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 48
+                    [function] => connect
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php
+                    [line] => 8
+                    [function] => formQuery
+                    [args] => Array
+                        (
+                            [0] => SELECT
+                            [1] => posts
+                            [2] => Array
+                                (
+                                    [id] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO) in E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php on line <i>7</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4014</td><td bgcolor='#eeeeec' align='right'>360264</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4030</td><td bgcolor='#eeeeec' align='right'>413808</td><td bgcolor='#eeeeec'>formQuery(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>8</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4030</td><td bgcolor='#eeeeec' align='right'>413808</td><td bgcolor='#eeeeec'>connect(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>48</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4030</td><td bgcolor='#eeeeec' align='right'>414192</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>7</td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SERVER</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REMOTE_ADDR']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'127.0.0.1'</font> <i>(length=9)</i>
+</pre></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REQUEST_METHOD']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'GET'</font> <i>(length=3)</i>
+</pre></td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SESSION</i></th></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_REQUEST</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_REQUEST['favicon_ico']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+</pre></td></tr>
+
+)
+
+2020-09-28 18:00:05 PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO)
+    [string:Exception:private] => 
+    [code:protected] => 1045
+    [file:protected] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+    [line:protected] => 7
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 7
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:dbname=awablog;host=localhost
+                            [1] => root1
+                            [2] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 48
+                    [function] => connect
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php
+                    [line] => 8
+                    [function] => formQuery
+                    [args] => Array
+                        (
+                            [0] => SELECT
+                            [1] => posts
+                            [2] => Array
+                                (
+                                    [id] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO) in E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php on line <i>7</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4020</td><td bgcolor='#eeeeec' align='right'>358328</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4113</td><td bgcolor='#eeeeec' align='right'>411832</td><td bgcolor='#eeeeec'>formQuery(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>8</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4113</td><td bgcolor='#eeeeec' align='right'>411832</td><td bgcolor='#eeeeec'>connect(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>48</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4114</td><td bgcolor='#eeeeec' align='right'>412216</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>7</td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SERVER</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REMOTE_ADDR']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'127.0.0.1'</font> <i>(length=9)</i>
+</pre></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REQUEST_METHOD']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'GET'</font> <i>(length=3)</i>
+</pre></td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SESSION</i></th></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_REQUEST</i></th></tr>
+
+)
+
+2020-09-28 18:00:05 PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO)
+    [string:Exception:private] => 
+    [code:protected] => 1045
+    [file:protected] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+    [line:protected] => 7
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 7
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:dbname=awablog;host=localhost
+                            [1] => root1
+                            [2] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 48
+                    [function] => connect
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php
+                    [line] => 8
+                    [function] => formQuery
+                    [args] => Array
+                        (
+                            [0] => SELECT
+                            [1] => posts
+                            [2] => Array
+                                (
+                                    [id] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO) in E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php on line <i>7</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4014</td><td bgcolor='#eeeeec' align='right'>360264</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4056</td><td bgcolor='#eeeeec' align='right'>413808</td><td bgcolor='#eeeeec'>formQuery(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>8</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4056</td><td bgcolor='#eeeeec' align='right'>413808</td><td bgcolor='#eeeeec'>connect(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>48</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4056</td><td bgcolor='#eeeeec' align='right'>414192</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>7</td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SERVER</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REMOTE_ADDR']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'127.0.0.1'</font> <i>(length=9)</i>
+</pre></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REQUEST_METHOD']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'GET'</font> <i>(length=3)</i>
+</pre></td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SESSION</i></th></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_REQUEST</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_REQUEST['favicon_ico']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+</pre></td></tr>
+
+)
+
+2020-09-28 18:01:25 PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO)
+    [string:Exception:private] => 
+    [code:protected] => 1045
+    [file:protected] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+    [line:protected] => 7
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 7
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:dbname=awablog;host=localhost
+                            [1] => root1
+                            [2] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 48
+                    [function] => connect
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php
+                    [line] => 8
+                    [function] => formQuery
+                    [args] => Array
+                        (
+                            [0] => SELECT
+                            [1] => posts
+                            [2] => Array
+                                (
+                                    [id] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO) in E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php on line <i>7</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4011</td><td bgcolor='#eeeeec' align='right'>358328</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4088</td><td bgcolor='#eeeeec' align='right'>411832</td><td bgcolor='#eeeeec'>formQuery(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>8</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4088</td><td bgcolor='#eeeeec' align='right'>411832</td><td bgcolor='#eeeeec'>connect(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>48</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4088</td><td bgcolor='#eeeeec' align='right'>412216</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>7</td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SERVER</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REMOTE_ADDR']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'127.0.0.1'</font> <i>(length=9)</i>
+</pre></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REQUEST_METHOD']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'GET'</font> <i>(length=3)</i>
+</pre></td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SESSION</i></th></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_REQUEST</i></th></tr>
+
+)
+
+2020-09-28 18:01:26 PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO)
+    [string:Exception:private] => 
+    [code:protected] => 1045
+    [file:protected] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+    [line:protected] => 7
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 7
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:dbname=awablog;host=localhost
+                            [1] => root1
+                            [2] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 48
+                    [function] => connect
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php
+                    [line] => 8
+                    [function] => formQuery
+                    [args] => Array
+                        (
+                            [0] => SELECT
+                            [1] => posts
+                            [2] => Array
+                                (
+                                    [id] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO) in E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php on line <i>7</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4008</td><td bgcolor='#eeeeec' align='right'>360264</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4024</td><td bgcolor='#eeeeec' align='right'>413808</td><td bgcolor='#eeeeec'>formQuery(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>8</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4024</td><td bgcolor='#eeeeec' align='right'>413808</td><td bgcolor='#eeeeec'>connect(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>48</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4024</td><td bgcolor='#eeeeec' align='right'>414192</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>7</td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SERVER</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REMOTE_ADDR']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'127.0.0.1'</font> <i>(length=9)</i>
+</pre></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REQUEST_METHOD']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'GET'</font> <i>(length=3)</i>
+</pre></td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SESSION</i></th></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_REQUEST</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_REQUEST['favicon_ico']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+</pre></td></tr>
+
+)
+
+2020-09-28 18:01:37 PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO)
+    [string:Exception:private] => 
+    [code:protected] => 1045
+    [file:protected] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+    [line:protected] => 7
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 7
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:dbname=awablog;host=localhost
+                            [1] => root1
+                            [2] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 48
+                    [function] => connect
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php
+                    [line] => 8
+                    [function] => formQuery
+                    [args] => Array
+                        (
+                            [0] => SELECT
+                            [1] => posts
+                            [2] => Array
+                                (
+                                    [id] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO) in E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php on line <i>7</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4005</td><td bgcolor='#eeeeec' align='right'>358328</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4076</td><td bgcolor='#eeeeec' align='right'>411832</td><td bgcolor='#eeeeec'>formQuery(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>8</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4076</td><td bgcolor='#eeeeec' align='right'>411832</td><td bgcolor='#eeeeec'>connect(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>48</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4076</td><td bgcolor='#eeeeec' align='right'>412216</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>7</td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SERVER</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REMOTE_ADDR']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'127.0.0.1'</font> <i>(length=9)</i>
+</pre></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REQUEST_METHOD']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'GET'</font> <i>(length=3)</i>
+</pre></td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SESSION</i></th></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_REQUEST</i></th></tr>
+
+)
+
+2020-09-28 18:01:37 PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO)
+    [string:Exception:private] => 
+    [code:protected] => 1045
+    [file:protected] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+    [line:protected] => 7
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 7
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:dbname=awablog;host=localhost
+                            [1] => root1
+                            [2] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 48
+                    [function] => connect
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php
+                    [line] => 8
+                    [function] => formQuery
+                    [args] => Array
+                        (
+                            [0] => SELECT
+                            [1] => posts
+                            [2] => Array
+                                (
+                                    [id] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO) in E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php on line <i>7</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4010</td><td bgcolor='#eeeeec' align='right'>360264</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4115</td><td bgcolor='#eeeeec' align='right'>413808</td><td bgcolor='#eeeeec'>formQuery(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>8</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4115</td><td bgcolor='#eeeeec' align='right'>413808</td><td bgcolor='#eeeeec'>connect(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>48</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4115</td><td bgcolor='#eeeeec' align='right'>414192</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>7</td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SERVER</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REMOTE_ADDR']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'127.0.0.1'</font> <i>(length=9)</i>
+</pre></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REQUEST_METHOD']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'GET'</font> <i>(length=3)</i>
+</pre></td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SESSION</i></th></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_REQUEST</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_REQUEST['favicon_ico']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+</pre></td></tr>
+
+)
+
+2020-09-28 18:02:53 PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO)
+    [string:Exception:private] => 
+    [code:protected] => 1045
+    [file:protected] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+    [line:protected] => 7
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 7
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:dbname=awablog;host=localhost
+                            [1] => root1
+                            [2] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 48
+                    [function] => connect
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php
+                    [line] => 8
+                    [function] => formQuery
+                    [args] => Array
+                        (
+                            [0] => SELECT
+                            [1] => posts
+                            [2] => Array
+                                (
+                                    [id] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO) in E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php on line <i>7</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4029</td><td bgcolor='#eeeeec' align='right'>358328</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4150</td><td bgcolor='#eeeeec' align='right'>411832</td><td bgcolor='#eeeeec'>formQuery(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>8</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4150</td><td bgcolor='#eeeeec' align='right'>411832</td><td bgcolor='#eeeeec'>connect(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>48</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4151</td><td bgcolor='#eeeeec' align='right'>412216</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>7</td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SERVER</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REMOTE_ADDR']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'127.0.0.1'</font> <i>(length=9)</i>
+</pre></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REQUEST_METHOD']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'GET'</font> <i>(length=3)</i>
+</pre></td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SESSION</i></th></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_REQUEST</i></th></tr>
+
+)
+
+2020-09-28 18:02:53 PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO)
+    [string:Exception:private] => 
+    [code:protected] => 1045
+    [file:protected] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+    [line:protected] => 7
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 7
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:dbname=awablog;host=localhost
+                            [1] => root1
+                            [2] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 48
+                    [function] => connect
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php
+                    [line] => 8
+                    [function] => formQuery
+                    [args] => Array
+                        (
+                            [0] => SELECT
+                            [1] => posts
+                            [2] => Array
+                                (
+                                    [id] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO) in E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php on line <i>7</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4008</td><td bgcolor='#eeeeec' align='right'>360264</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4115</td><td bgcolor='#eeeeec' align='right'>413808</td><td bgcolor='#eeeeec'>formQuery(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>8</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4116</td><td bgcolor='#eeeeec' align='right'>413808</td><td bgcolor='#eeeeec'>connect(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>48</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4116</td><td bgcolor='#eeeeec' align='right'>414192</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>7</td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SERVER</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REMOTE_ADDR']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'127.0.0.1'</font> <i>(length=9)</i>
+</pre></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REQUEST_METHOD']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'GET'</font> <i>(length=3)</i>
+</pre></td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SESSION</i></th></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_REQUEST</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_REQUEST['favicon_ico']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+</pre></td></tr>
+
+)
+
+2020-09-28 18:03:41 PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO)
+    [string:Exception:private] => 
+    [code:protected] => 1045
+    [file:protected] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+    [line:protected] => 7
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 7
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:dbname=awablog;host=localhost
+                            [1] => root1
+                            [2] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 48
+                    [function] => connect
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php
+                    [line] => 8
+                    [function] => formQuery
+                    [args] => Array
+                        (
+                            [0] => SELECT
+                            [1] => posts
+                            [2] => Array
+                                (
+                                    [id] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO) in E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php on line <i>7</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4017</td><td bgcolor='#eeeeec' align='right'>358328</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4040</td><td bgcolor='#eeeeec' align='right'>411832</td><td bgcolor='#eeeeec'>formQuery(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>8</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4040</td><td bgcolor='#eeeeec' align='right'>411832</td><td bgcolor='#eeeeec'>connect(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>48</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4040</td><td bgcolor='#eeeeec' align='right'>412216</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>7</td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SERVER</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REMOTE_ADDR']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'127.0.0.1'</font> <i>(length=9)</i>
+</pre></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REQUEST_METHOD']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'GET'</font> <i>(length=3)</i>
+</pre></td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SESSION</i></th></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_REQUEST</i></th></tr>
+
+)
+
+2020-09-28 18:03:42 PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO)
+    [string:Exception:private] => 
+    [code:protected] => 1045
+    [file:protected] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+    [line:protected] => 7
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 7
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:dbname=awablog;host=localhost
+                            [1] => root1
+                            [2] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 48
+                    [function] => connect
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php
+                    [line] => 8
+                    [function] => formQuery
+                    [args] => Array
+                        (
+                            [0] => SELECT
+                            [1] => posts
+                            [2] => Array
+                                (
+                                    [id] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO) in E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php on line <i>7</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4009</td><td bgcolor='#eeeeec' align='right'>360264</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4104</td><td bgcolor='#eeeeec' align='right'>413808</td><td bgcolor='#eeeeec'>formQuery(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>8</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4105</td><td bgcolor='#eeeeec' align='right'>413808</td><td bgcolor='#eeeeec'>connect(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>48</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4105</td><td bgcolor='#eeeeec' align='right'>414192</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>7</td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SERVER</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REMOTE_ADDR']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'127.0.0.1'</font> <i>(length=9)</i>
+</pre></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REQUEST_METHOD']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'GET'</font> <i>(length=3)</i>
+</pre></td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SESSION</i></th></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_REQUEST</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_REQUEST['favicon_ico']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+</pre></td></tr>
+
+)
+
+2020-09-28 18:03:57 PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO)
+    [string:Exception:private] => 
+    [code:protected] => 1045
+    [file:protected] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+    [line:protected] => 7
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 7
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:dbname=awablog;host=localhost
+                            [1] => root1
+                            [2] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 48
+                    [function] => connect
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php
+                    [line] => 8
+                    [function] => formQuery
+                    [args] => Array
+                        (
+                            [0] => SELECT
+                            [1] => posts
+                            [2] => Array
+                                (
+                                    [id] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO) in E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php on line <i>7</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4011</td><td bgcolor='#eeeeec' align='right'>358328</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4080</td><td bgcolor='#eeeeec' align='right'>411832</td><td bgcolor='#eeeeec'>formQuery(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>8</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4080</td><td bgcolor='#eeeeec' align='right'>411832</td><td bgcolor='#eeeeec'>connect(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>48</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4080</td><td bgcolor='#eeeeec' align='right'>412216</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>7</td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SERVER</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REMOTE_ADDR']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'127.0.0.1'</font> <i>(length=9)</i>
+</pre></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REQUEST_METHOD']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'GET'</font> <i>(length=3)</i>
+</pre></td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SESSION</i></th></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_REQUEST</i></th></tr>
+
+)
+
+2020-09-28 18:03:58 PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO)
+    [string:Exception:private] => 
+    [code:protected] => 1045
+    [file:protected] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+    [line:protected] => 7
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 7
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:dbname=awablog;host=localhost
+                            [1] => root1
+                            [2] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 48
+                    [function] => connect
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php
+                    [line] => 8
+                    [function] => formQuery
+                    [args] => Array
+                        (
+                            [0] => SELECT
+                            [1] => posts
+                            [2] => Array
+                                (
+                                    [id] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO) in E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php on line <i>7</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4010</td><td bgcolor='#eeeeec' align='right'>360264</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4102</td><td bgcolor='#eeeeec' align='right'>413808</td><td bgcolor='#eeeeec'>formQuery(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>8</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4102</td><td bgcolor='#eeeeec' align='right'>413808</td><td bgcolor='#eeeeec'>connect(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>48</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4103</td><td bgcolor='#eeeeec' align='right'>414192</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>7</td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SERVER</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REMOTE_ADDR']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'127.0.0.1'</font> <i>(length=9)</i>
+</pre></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REQUEST_METHOD']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'GET'</font> <i>(length=3)</i>
+</pre></td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SESSION</i></th></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_REQUEST</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_REQUEST['favicon_ico']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+</pre></td></tr>
+
+)
+
+2020-09-28 18:04:42 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 18:04:42 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 18:06:36 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 18:06:37 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 18:10:00 PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO)
+    [string:Exception:private] => 
+    [code:protected] => 1045
+    [file:protected] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+    [line:protected] => 7
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 7
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:dbname=awablog;host=localhost
+                            [1] => root1
+                            [2] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 48
+                    [function] => connect
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php
+                    [line] => 8
+                    [function] => formQuery
+                    [args] => Array
+                        (
+                            [0] => SELECT
+                            [1] => posts
+                            [2] => Array
+                                (
+                                    [id] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO) in E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php on line <i>7</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4025</td><td bgcolor='#eeeeec' align='right'>358328</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4110</td><td bgcolor='#eeeeec' align='right'>411952</td><td bgcolor='#eeeeec'>formQuery(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>8</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4110</td><td bgcolor='#eeeeec' align='right'>411952</td><td bgcolor='#eeeeec'>connect(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>48</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4111</td><td bgcolor='#eeeeec' align='right'>412336</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>7</td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SERVER</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REMOTE_ADDR']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'127.0.0.1'</font> <i>(length=9)</i>
+</pre></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REQUEST_METHOD']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'GET'</font> <i>(length=3)</i>
+</pre></td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SESSION</i></th></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_REQUEST</i></th></tr>
+
+)
+
+2020-09-28 18:10:01 PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO)
+    [string:Exception:private] => 
+    [code:protected] => 1045
+    [file:protected] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+    [line:protected] => 7
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 7
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:dbname=awablog;host=localhost
+                            [1] => root1
+                            [2] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 48
+                    [function] => connect
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php
+                    [line] => 8
+                    [function] => formQuery
+                    [args] => Array
+                        (
+                            [0] => SELECT
+                            [1] => posts
+                            [2] => Array
+                                (
+                                    [id] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO) in E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php on line <i>7</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4011</td><td bgcolor='#eeeeec' align='right'>360264</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4112</td><td bgcolor='#eeeeec' align='right'>413928</td><td bgcolor='#eeeeec'>formQuery(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>8</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4112</td><td bgcolor='#eeeeec' align='right'>413928</td><td bgcolor='#eeeeec'>connect(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>48</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4112</td><td bgcolor='#eeeeec' align='right'>414312</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>7</td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SERVER</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REMOTE_ADDR']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'127.0.0.1'</font> <i>(length=9)</i>
+</pre></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REQUEST_METHOD']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'GET'</font> <i>(length=3)</i>
+</pre></td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SESSION</i></th></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_REQUEST</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_REQUEST['favicon_ico']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+</pre></td></tr>
+
+)
+
+2020-09-28 18:10:08 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 18:10:08 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 18:10:51 PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO)
+    [string:Exception:private] => 
+    [code:protected] => 1045
+    [file:protected] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+    [line:protected] => 7
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 7
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:dbname=awablog;host=localhost
+                            [1] => root1
+                            [2] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 48
+                    [function] => connect
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php
+                    [line] => 8
+                    [function] => formQuery
+                    [args] => Array
+                        (
+                            [0] => SELECT
+                            [1] => posts
+                            [2] => Array
+                                (
+                                    [id] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO) in E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php on line <i>7</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4014</td><td bgcolor='#eeeeec' align='right'>358328</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4090</td><td bgcolor='#eeeeec' align='right'>411952</td><td bgcolor='#eeeeec'>formQuery(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>8</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4090</td><td bgcolor='#eeeeec' align='right'>411952</td><td bgcolor='#eeeeec'>connect(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>48</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4091</td><td bgcolor='#eeeeec' align='right'>412336</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>7</td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SERVER</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REMOTE_ADDR']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'127.0.0.1'</font> <i>(length=9)</i>
+</pre></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REQUEST_METHOD']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'GET'</font> <i>(length=3)</i>
+</pre></td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SESSION</i></th></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_REQUEST</i></th></tr>
+
+)
+
+2020-09-28 18:10:52 PDOException Object
+(
+    [message:protected] => SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO)
+    [string:Exception:private] => 
+    [code:protected] => 1045
+    [file:protected] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+    [line:protected] => 7
+    [trace:Exception:private] => Array
+        (
+            [0] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 7
+                    [function] => __construct
+                    [class] => PDO
+                    [type] => ->
+                    [args] => Array
+                        (
+                            [0] => mysql:dbname=awablog;host=localhost
+                            [1] => root1
+                            [2] => 
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php
+                    [line] => 48
+                    [function] => connect
+                    [args] => Array
+                        (
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [file] => E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php
+                    [line] => 8
+                    [function] => formQuery
+                    [args] => Array
+                        (
+                            [0] => SELECT
+                            [1] => posts
+                            [2] => Array
+                                (
+                                    [id] => 1
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [previous:Exception:private] => 
+    [errorInfo] => 
+    [xdebug_message] => <tr><th align='left' bgcolor='#f57900' colspan="5"><span style='background-color: #cc0000; color: #fce94f; font-size: x-large;'>( ! )</span> PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root1'@'localhost' (using password: NO) in E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php on line <i>7</i></th></tr>
+<tr><th align='left' bgcolor='#e9b96e' colspan='5'>Call Stack</th></tr>
+<tr><th align='center' bgcolor='#eeeeec'>#</th><th align='left' bgcolor='#eeeeec'>Time</th><th align='left' bgcolor='#eeeeec'>Memory</th><th align='left' bgcolor='#eeeeec'>Function</th><th align='left' bgcolor='#eeeeec'>Location</th></tr>
+<tr><td bgcolor='#eeeeec' align='center'>1</td><td bgcolor='#eeeeec' align='center'>0.4017</td><td bgcolor='#eeeeec' align='right'>360264</td><td bgcolor='#eeeeec'>{main}(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>0</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>2</td><td bgcolor='#eeeeec' align='center'>0.4102</td><td bgcolor='#eeeeec' align='right'>413928</td><td bgcolor='#eeeeec'>formQuery(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\public\index.php' bgcolor='#eeeeec'>...\index.php<b>:</b>8</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>3</td><td bgcolor='#eeeeec' align='center'>0.4102</td><td bgcolor='#eeeeec' align='right'>413928</td><td bgcolor='#eeeeec'>connect(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>48</td></tr>
+<tr><td bgcolor='#eeeeec' align='center'>4</td><td bgcolor='#eeeeec' align='center'>0.4102</td><td bgcolor='#eeeeec' align='right'>414312</td><td bgcolor='#eeeeec'><a href='http://www.php.net/PDO.construct' target='_new'>__construct</a>
+(  )</td><td title='E:\OpenServer\Installer\OSPanel\domains\ModernBlog\core\db_core.php' bgcolor='#eeeeec'>...\db_core.php<b>:</b>7</td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SERVER</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REMOTE_ADDR']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'127.0.0.1'</font> <i>(length=9)</i>
+</pre></td></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_SERVER['REQUEST_METHOD']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>'GET'</font> <i>(length=3)</i>
+</pre></td></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_SESSION</i></th></tr>
+<tr><th colspan='5' align='left' bgcolor='#e9b96e'>Dump <i>$_REQUEST</i></th></tr>
+<tr><td colspan='2' align='right' bgcolor='#eeeeec' valign='top'><pre>$_REQUEST['favicon_ico']&nbsp;=</pre></td><td colspan='3' bgcolor='#eeeeec'><pre class='xdebug-var-dump' dir='ltr'><small>string</small> <font color='#cc0000'>''</font> <i>(length=0)</i>
+</pre></td></tr>
+
+)
+
+2020-09-28 18:11:58 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 18:11:58 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 18:49:17 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 18:56:31 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 18:58:06 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 18:59:19 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 19:03:19 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 19:04:27 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 19:04:56 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 19:09:27 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 19:10:29 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 19:12:31 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 19:20:23 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 19:53:21 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 19:54:46 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 19:56:05 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 19:57:12 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 19:58:05 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 19:58:55 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 20:14:01 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 20:14:42 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 20:15:42 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 20:24:00 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 20:25:15 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 20:25:34 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 20:25:51 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 20:25:52 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-28 20:25:58 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 09:16:21 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 09:16:21 Array
+(
+    [0] => HY093
+    [1] => 
+    [2] => 
+)
+
+2020-09-29 09:16:48 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 09:16:48 Array
+(
+    [0] => HY093
+    [1] => 
+    [2] => 
+)
+
+2020-09-29 09:17:39 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 09:23:23 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 09:23:23 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'Nature' in 'where clause'
+)
+
+2020-09-29 09:25:54 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 09:25:54 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'Nature' in 'where clause'
+)
+
+2020-09-29 09:29:05 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 09:29:46 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'Nature' in 'where clause'
+)
+
+2020-09-29 09:31:04 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 09:34:20 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 09:56:07 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 10:48:27 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 10:49:33 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 13:59:15 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 14:06:16 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 14:07:10 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 14:08:13 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 14:10:25 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 14:10:53 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 14:11:17 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 14:13:05 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 14:14:25 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 14:16:39 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 14:16:41 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 14:16:44 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 14:16:53 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 14:17:03 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 14:17:13 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 14:17:50 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 14:21:53 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 14:22:18 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 17:15:45 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 17:20:18 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 17:20:33 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 17:23:01 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 17:23:08 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 17:23:12 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 17:24:37 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 17:24:45 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 17:27:08 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 17:29:19 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 17:39:34 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 17:40:20 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 17:40:25 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 17:41:36 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 17:43:23 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 17:43:26 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 17:45:38 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 17:48:04 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 17:56:23 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 18:08:39 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 18:09:01 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 18:09:47 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 18:10:33 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 18:12:19 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 18:14:07 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 18:15:30 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 18:21:44 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 18:30:28 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 18:31:03 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 18:31:39 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 18:33:56 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 18:36:23 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 18:37:43 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 18:38:48 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 18:40:45 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 18:41:23 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 18:42:47 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 18:44:05 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 18:44:42 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 19:22:45 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 19:23:04 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 19:23:06 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 19:23:29 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 19:24:42 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 19:25:04 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 19:26:02 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 19:26:04 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 19:26:12 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 19:27:13 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 19:28:10 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 19:29:04 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 19:29:18 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 19:29:32 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 19:30:27 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 19:31:12 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 19:31:14 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 19:31:15 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 19:31:16 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 19:31:25 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 19:31:48 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 19:31:58 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 19:33:09 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 19:34:12 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 21:37:56 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 21:59:58 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 22:02:12 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 22:02:57 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 22:03:57 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 22:06:10 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 22:06:49 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 22:06:57 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 22:07:07 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 22:07:08 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 22:07:35 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 22:13:29 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 22:22:36 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 22:24:36 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 22:25:14 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 22:25:33 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 22:25:34 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 22:25:35 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 22:27:40 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 22:27:47 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 22:27:48 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-29 22:29:26 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 14:01:50 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 14:19:04 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 14:19:51 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 14:23:14 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 15:00:52 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 15:45:53 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 15:45:55 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 15:47:07 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 15:50:18 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 15:51:52 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 15:53:04 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 16:02:37 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 16:04:02 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 16:09:01 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 16:09:09 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 16:10:43 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 16:10:57 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 16:23:18 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 16:25:55 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 21:18:13 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 21:24:26 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 21:25:23 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 21:26:46 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 21:26:49 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 21:28:30 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 21:29:08 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 21:38:24 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 21:42:27 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 21:43:01 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 21:43:24 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 21:43:38 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 21:45:40 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 21:46:12 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 21:46:14 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 21:46:28 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 21:46:38 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 21:47:01 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 21:48:36 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 21:48:44 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 21:49:23 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 21:51:13 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 22:12:37 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 22:16:13 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 22:16:37 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 22:37:46 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 22:37:46 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'name' in 'where clause'
+)
+
+2020-09-30 22:42:18 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 22:43:55 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 22:44:44 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 22:55:59 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 22:57:04 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 22:57:24 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 23:00:13 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 23:06:05 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 23:06:16 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 23:06:17 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 23:13:41 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 23:14:35 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 23:14:59 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 23:15:02 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 23:15:06 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 23:15:09 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 23:15:28 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-09-30 23:15:37 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 09:38:41 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 09:39:07 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 09:39:12 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 09:39:16 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 09:45:45 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 09:45:47 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 09:48:09 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 09:48:52 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 09:48:54 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 09:49:26 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 09:51:02 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 09:54:55 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 09:56:24 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 09:56:28 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 09:56:53 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 09:58:19 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 09:59:41 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 09:59:52 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 10:02:16 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 10:07:02 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 10:07:35 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 10:08:49 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 10:09:01 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 10:09:40 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 10:09:53 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 10:10:15 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 10:12:17 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 11:22:49 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 11:22:51 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 11:47:30 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 11:47:42 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 11:47:46 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 11:47:48 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 11:47:50 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-10-01 11:48:01 Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2020-11-15 17:03:10 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-11-15 17:03:11 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-11-15 17:03:11 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-11-15 17:03:11 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-11-15 21:37:43 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-11-15 21:37:43 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-11-15 21:37:43 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-11-15 21:37:43 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-11-15 21:37:46 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-11-15 21:37:46 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-11-15 21:37:46 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-11-15 21:37:46 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-11-15 21:44:42 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-11-15 21:44:42 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-11-15 21:44:42 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-11-15 21:44:42 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-11-15 22:28:05 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-11-15 22:28:05 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-11-15 22:28:05 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-11-15 22:28:08 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-11-15 22:28:08 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-11-15 22:28:08 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-11-15 22:28:10 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-11-15 22:28:10 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-11-15 22:28:10 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-11-15 22:28:12 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-11-15 22:28:12 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-11-15 22:28:12 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-11-15 22:28:14 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-11-15 22:28:14 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-11-15 22:28:14 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-11-15 22:28:16 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-11-15 22:28:16 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-11-15 22:28:16 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-11-15 22:30:42 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-11-15 22:30:42 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-11-15 22:30:42 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-11-15 22:30:42 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-11-15 22:30:44 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-11-15 22:30:44 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'viewers' in 'field list'
+)
+
+2020-11-15 22:30:44 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'field list'
+)
+
+2020-11-15 22:30:44 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-11-15 22:30:44 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-11-15 22:30:48 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-11-15 22:30:48 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-11-15 22:30:48 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-11-15 22:30:48 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-11-15 22:30:50 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-11-15 22:30:50 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'viewers' in 'field list'
+)
+
+2020-11-15 22:30:50 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'field list'
+)
+
+2020-11-15 22:30:50 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-11-15 22:30:50 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-11-15 22:30:54 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-11-15 22:30:54 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-11-15 22:30:54 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-11-15 22:30:54 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-11-16 18:18:27 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-11-16 18:18:27 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-11-16 18:18:27 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-11-16 18:18:27 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-11-16 20:11:10 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-11-16 20:11:11 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-11-16 20:11:11 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-11-16 20:11:11 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-11-16 20:15:13 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-11-16 20:15:13 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-11-16 20:15:13 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-11-16 20:15:13 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-12-08 14:48:33 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-08 14:48:33 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-12-08 14:48:33 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-12-08 14:48:33 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-12-08 14:48:39 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-08 14:48:39 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-12-08 14:48:39 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-12-08 14:48:42 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-08 14:48:42 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-12-08 14:48:42 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-12-08 14:48:42 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-12-08 14:49:03 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-08 14:49:03 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-12-08 14:49:03 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-12-08 14:49:03 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-12-08 14:49:07 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-08 14:49:07 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-12-08 14:49:07 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-12-08 14:49:07 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-12-08 14:49:11 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-08 14:49:11 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-12-08 14:49:11 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-12-08 14:49:11 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-12-08 14:49:19 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-08 14:49:19 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'viewers' in 'field list'
+)
+
+2020-12-08 14:49:19 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'field list'
+)
+
+2020-12-08 14:49:19 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-12-08 14:49:19 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-12-08 14:49:21 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-08 14:49:21 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-12-08 14:49:21 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-12-08 14:49:21 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-12-10 22:00:04 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-10 22:00:04 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-12-10 22:00:04 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.menu' doesn't exist
+)
+
+2020-12-10 22:00:04 Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'awablog.footer_links' doesn't exist
+)
+
+2020-12-12 13:41:40 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-12 13:41:40 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-12-12 13:43:03 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-12 13:43:31 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-12 13:44:56 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-12 13:44:56 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'viewers' in 'field list'
+)
+
+2020-12-12 13:44:56 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'field list'
+)
+
+2020-12-12 13:44:58 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-12 17:44:59 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-12 17:44:59 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-12-12 17:45:01 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-12 18:09:25 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-12 18:09:28 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-12 18:19:26 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-12 18:19:28 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-12 18:19:30 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-12 18:19:32 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-12 18:19:33 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-12 18:19:35 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-12 18:19:37 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-12 18:19:39 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-12 18:19:41 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-12 18:19:45 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-12 18:19:53 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-13 14:50:58 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-13 15:36:12 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-13 15:36:12 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-12-13 15:36:14 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-13 15:36:14 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'viewers' in 'field list'
+)
+
+2020-12-13 15:36:14 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'field list'
+)
+
+2020-12-13 15:36:25 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-13 15:36:25 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-12-13 15:44:59 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-13 15:44:59 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'viewers' in 'field list'
+)
+
+2020-12-13 15:44:59 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'field list'
+)
+
+2020-12-13 15:45:05 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-13 15:45:05 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'viewers' in 'field list'
+)
+
+2020-12-13 15:45:05 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'field list'
+)
+
+2020-12-13 15:46:02 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-13 15:46:02 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'viewers' in 'field list'
+)
+
+2020-12-13 15:46:02 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'field list'
+)
+
+2020-12-13 15:46:03 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-13 15:46:03 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-12-13 15:46:06 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-13 15:46:06 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'viewers' in 'field list'
+)
+
+2020-12-13 15:46:06 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'field list'
+)
+
+2020-12-13 15:46:10 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-13 15:46:10 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-12-13 15:46:11 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-13 15:46:11 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'viewers' in 'field list'
+)
+
+2020-12-13 15:46:11 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'field list'
+)
+
+2020-12-13 15:46:26 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-13 15:46:26 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-12-13 15:46:28 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-13 15:46:28 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'viewers' in 'field list'
+)
+
+2020-12-13 15:46:28 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'field list'
+)
+
+2020-12-13 15:46:30 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-13 15:46:30 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-12-25 13:04:22 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-25 13:04:29 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-25 13:04:33 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-25 13:06:48 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-25 13:06:55 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-25 13:06:58 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-25 13:19:34 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-25 13:22:03 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-25 13:24:22 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-25 13:24:30 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-25 13:24:54 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-25 13:41:27 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-25 13:41:31 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-25 13:41:42 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-25 13:41:42 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
+2020-12-25 13:41:44 Array
+(
+    [0] => HY000
+    [1] => 1193
+    [2] => Unknown system variable 'NAMESutf8'
+)
+
+2020-12-25 13:41:44 Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'posts.viewers' in 'order clause'
+)
+
